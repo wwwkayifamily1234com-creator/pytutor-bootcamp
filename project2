@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+                color: rgb(5, 86, 247);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .head{
+                display: grid;
+                grid-template-columns: 900px;
+                grid-template-rows: 50px;
+                background-color: white;
+                box-shadow: 5px 1px 0px rgba(0,0, 0, 0.3) ;
+            }
+            .logo{
+                position: absolute;
+                right: 800px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                color: rgb(5, 86, 247);
+                font-size: 20px;
+                top: 3px;
+            }
+            .home{
+                position: absolute;
+                top: 6px;
+                right: 500px;
+            }
+            .serv{
+                position: absolute;
+                top: 6px;
+                right: 410px;
+            }
+            .about{
+                position: absolute;
+                top: 6px;
+                right: 335px;
+            }
+            .cont{
+                position: absolute;
+                top: 6px;
+                right: 255px;
+            }
+            .head2{
+                display: grid;
+                grid-template-columns: 900px;
+                grid-template-rows: 170px;
+                background-color:rgb(240, 240, 240);
+                position: absolute;
+                top: 60px;
+
+            }
+            .wel{
+                position: absolute;
+                right: 800px;
+            }
+            .h2{
+                position: absolute;
+                right: 670px;
+                top: 40px;
+            }
+            h1{
+                color: rgb(5, 86, 247);
+            }
+            .learn{
+                position: absolute;
+                top: 110px;
+                right: 865px;
+                color: white;
+                background-color: rgb(5, 86, 247);
+                border: none;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            .text1{
+                position: absolute;
+                top: 230px;
+                right: 550px;
+            }
+            .but1{
+                position: absolute;
+                right: 700px;
+                top: 280px;
+                width: 200px;
+                padding-top: 50px;
+                color: rgb(5, 86, 247);
+                border-style: solid;
+                border-width: 1px;
+                border-color: rgb(5, 86, 247);
+                border-radius: 5px;
+            }
+            .but2{
+                position: absolute;
+                right: 480px;
+                top: 280px;
+                width: 200px;
+                padding-top: 50px;
+                color: rgb(5, 86, 247);
+                border-style: solid;
+                border-width: 1px;
+                border-color: rgb(5, 86, 247);
+                border-radius: 5px;
+            }
+            .but3{
+                position: absolute;
+                right: 260px;
+                top: 280px;
+                width: 200px;
+                padding-top: 50px;
+                color: rgb(5, 86, 247);
+                border-style: solid;
+                border-width: 1px;
+                border-color: rgb(5, 86, 247);
+                border-radius: 5px;
+            }
+            .h3{
+                position: absolute;
+                top: 360px;
+                right: 530px;
+                color: rgb(5, 86, 247);
+            }
+            .text2{
+                position: absolute;
+                top: 430px;
+                width: 570px;
+                right: 190px;
+            }
+            .text3{
+                position: absolute;
+                top: 410px;
+                width: 570px;
+                right: 230px;
+            }
+            .text4{
+                position: absolute;
+                top: 390px;
+                width: 570px;
+                right: 230px;
+            }
+            .head3{
+                display: grid;
+                grid-template-columns: 1200px;
+                grid-template-rows: 70px;
+                background-color: rgb(241, 235, 235);
+                position: absolute;
+                top: 490px;
+                box-shadow: 5px -2px 0px rgba(0,0, 0, 0.2) ;
+
+            }
+            .cont2{
+                position: absolute;
+                top:8px;
+                right: 790px;
+                color: rgb(5, 86, 247);
+            }
+            .info{
+                position: absolute;
+                top: 3px;
+                right: 600px;
+                color: rgb(5, 86, 247);
+            }
+            .info2{
+                position: absolute;
+                top: 20px;
+                right: 620px;
+                color: rgb(5, 86, 247);
+            }
+             .email{
+                position: absolute;
+                top: 3px;
+                right: 480px;
+                color: rgb(5, 86, 247);
+            }
+             .email2{
+                position: absolute;
+                top: 20px;
+                right: 420px;
+                color: rgb(5, 86, 247);
+            }
+             .code{
+                position: absolute;
+                top: 5px;
+                right: 290px;
+                color: rgb(5, 86, 247);
+            }
+             .code2{
+                position: absolute;
+                top: 20px;
+                right: 240px;
+                color: rgb(5, 86, 247);
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="head">
+            <p class="logo">
+                Logo
+            </p>
+            <p class="home">
+                Home
+            </p>
+            <p class="serv">
+                Services
+            </p>
+            <p class="about">
+                About
+            </p>
+            <p class="cont">
+                Contact
+            </p>
+
+        </div>
+        <div class="head2">
+            <h1 class="wel">
+                Welcome to
+            </h1>
+            <h1 class="h2">
+                Your Local Business.
+            </h1>
+            <button class="learn">
+                Learn More
+            </button>
+        </div>
+        <p class="text1">
+            Services
+        </p>
+        <button class="but1">
+            Lorem ipsum dolor sit amet
+            consectetur adipiscing
+        </button>
+    </body>
+    <button class="but2">
+            Lorem ipsum dolor sit amet
+            consectetur adipiscing
+    </button>
+    <button class="but3">
+        Lorem ipsum dolor sit amet
+            consectetur adipiscing
+    </button>
+    <h3 class="h3">
+        About
+    </h3>
+   
+    <p class="text4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        ,sed do eiusmod tempor 
+    </p>
+    <p class="text3">
+        inciddunt ut lsbore et dolore magna
+        aliqua. Ut enim ad minimveniam, ala da quis
+    </p>
+     <p class="text2">
+       nostrud exeercitation 
+        ullacamo ex ea commodo consequat.
+    </p>
+    <div class="head3">
+        <h3 class="cont2">
+            Contact info
+        </h3>
+        <h4 class="info">
+            Place more info
+        </h4>
+        <h4 class="info2">
+             123 456 6789
+        </h4>
+        <h4 class="email">
+            Website info
+        </h4>
+        <h4 class="email2">
+            info@mywebsite.com
+        </h4>
+        <h4 class="code">
+            Contact Us
+        </h4>
+        <h4 class="code2">
+            www.business.com
+        </h4>
+
+    </div>
+</html>
